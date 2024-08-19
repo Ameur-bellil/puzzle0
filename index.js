@@ -10,9 +10,10 @@ if (inputValue === 0) {
     window.location.href = URL;
 }
 else{
-    window.location.href = "https://tayssirgh.github.io/puzzle1/" + thmasInputText.value + "ytebu864TR/";
+    window.location.href = "https://ameur-bellil.github.io/puzzle1/" + thmasInputText.value + "ytebu864TR/";
 }
 }
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
