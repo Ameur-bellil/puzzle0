@@ -15,15 +15,15 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /*Green gradient*/
-  
-  
+
+
   /*Red gradient*/
   /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
   --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); */
 
   /*Black solid*/
    --body-color: #0d0d0d;
-  --container-color: hsl(60, 2%, 9%); 
+  --container-color: hsl(60, 2%, 9%);
 
   /*========== Font and typography ==========*/
   --body-font: 'Special Elite', sans-serif;
@@ -129,7 +129,7 @@ img{
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background: var(--body-color); 
+  background: var(--body-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -252,9 +252,9 @@ img{
 
 .home__img{
   height: 250px;
-  
+
   justify-self: center;
-  
+
 }
 
 .home__indicator{
@@ -396,7 +396,7 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .container{
@@ -413,7 +413,7 @@ img{
     row-gap: 1rem;
   }
 
- 
+
 }
 
 /* For medium devices */
@@ -435,7 +435,7 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   body{
@@ -471,8 +471,8 @@ img{
   .home__img{
     height: 300px;
   }
-  
- 
+
+
 }
 @media screen and (max-width: 600px){
   .result_box{
@@ -491,7 +491,7 @@ img{
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
@@ -514,7 +514,7 @@ img{
     border-radius: 2.5%;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .bl{
@@ -566,7 +566,7 @@ img{
     padding-right: 2rem;
   }
 
-  
+
 }
 
 @media screen and (min-width: 1200px){
@@ -581,11 +581,11 @@ img{
   opacity:0;
 }
 .result_box  img{
- 
+
   margin: 30px 37% 0;
-  
+
   height:150px;
-  
+
     transform: translateY(-1rem);
 }
 .result_box .complete_text{
@@ -593,13 +593,13 @@ img{
   font-weight: 500;
   color: #adadad;
   font-family: 'Times New Roman', Times, serif;
-  
+
 }
 .result_box .score_text p{
 
   margin: 20px 5px;
   font-size: 18px;
-  
+
   padding: 0 4px;
   color:#010101;
   font-family: 'Times New Roman', Times, serif;
@@ -634,7 +634,7 @@ img{
 .shape1 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -645,7 +645,7 @@ img{
 .shape2 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -656,7 +656,7 @@ img{
 .shape4 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -667,7 +667,7 @@ img{
 .shape3 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -678,7 +678,7 @@ img{
 .shape5{
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -689,7 +689,7 @@ img{
 .shape6 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -700,7 +700,7 @@ img{
 .shape7 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -711,7 +711,7 @@ img{
 .shape8 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -722,7 +722,7 @@ img{
 .shape9 {
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -733,7 +733,7 @@ img{
 .shape10{
   position: absolute;
   height:300px;
-  
+
   z-index: 0;
   width: 100px;
   height:100px;
@@ -747,7 +747,7 @@ img{
   .shape1 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -758,7 +758,7 @@ img{
   .shape2 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -769,7 +769,7 @@ img{
   .shape3 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -780,7 +780,7 @@ img{
   .shape4 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -791,7 +791,7 @@ img{
   .shape5{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -802,7 +802,7 @@ img{
   .shape6{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 200px;
     height:150px;
@@ -813,7 +813,7 @@ img{
   .shape7 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -824,7 +824,7 @@ img{
   .shape8 {
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -835,7 +835,7 @@ img{
   .shape9{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
@@ -846,7 +846,7 @@ img{
   .shape10{
     position: absolute;
     height:300px;
-    
+
     z-index: 0;
     width: 100px;
     height:100px;
