@@ -6,12 +6,11 @@ thmasButton.addEventListener('click', clickButton);
 function clickButton() {
 var URL = "https://docs.google.com/forms/d/1HUkVG4nySUJEpZyZg4EQLiogWb-hGun41LpQJl195RU/edit#responses";
 var inputValue = parseInt(thmasInputText.value);
-if (inputValue === 0) {
-    window.location.href = URL;
-}
-else{
-    window.location.href = "https://ameur-bellil.github.io/puzzle1/";
-}
+
+    var win = window.open(URL, "_blank");
+    window.location.href = "https://ameur-bellil.github.io/puzzle1" + inputValue +"/";
+
+
 }
 
 /*=============== SHOW MENU ===============*/
