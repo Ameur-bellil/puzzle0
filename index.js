@@ -4,12 +4,14 @@ const thmasInputText = document.querySelector('#thmas-input-text');
 thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
-var URL = "https://docs.google.com/forms/d/1HUkVG4nySUJEpZyZg4EQLiogWb-hGun41LpQJl195RU/edit#responses";
+var URL = "https://ameur-bellil.github.io/puzzle1/";
 var inputValue = parseInt(thmasInputText.value);
-
+if (inputValue === 0) {
     var win = window.open(URL, "_blank");
-    window.location.href = "https://ameur-bellil.github.io/puzzle1" + inputValue +"/";
-
+    window.location.href = "https://docs.google.com/forms/d/1HUkVG4nySUJEpZyZg4EQLiogWb-hGun41LpQJl195RU/edit#responses";
+}else {
+    window.alert("Try again");
+}
 
 }
 
