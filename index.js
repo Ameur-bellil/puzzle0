@@ -30,7 +30,7 @@ document.onkeydown = e  =>{
     //prevent paste anything from other sources
     if (e.ctrlKey && e.key ==="v"){
         alert("Don't try to paste anything to page");
-        return false
+        return false;
     }
 
 }
