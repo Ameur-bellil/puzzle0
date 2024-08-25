@@ -22,7 +22,7 @@ document.onkeydown = e  =>{
     }
 
     //prevent copying anything from the page
-    if (e.ctrlKey && e.key ==="v"){
+    if (e.ctrlKey && e.key ==="c"){
         alert("Don't try to copy page element");
         return false;
     }
